@@ -13,4 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::resource('products', 'ProductController');
+Route::resource('products', 'ProductController')->except('show');
